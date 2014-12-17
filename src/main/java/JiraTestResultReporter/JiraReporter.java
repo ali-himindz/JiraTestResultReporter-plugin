@@ -83,7 +83,7 @@ public class JiraReporter extends Notifier {
         this.createAllFlag = createAllFlag;
     }
 
-    @Override
+    //@Override
     public BuildStepMonitor getRequiredMonitorService() {
         return BuildStepMonitor.NONE;
     }
